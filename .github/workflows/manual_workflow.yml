@@ -18,3 +18,4 @@ jobs:
     steps:
       - name: Mensaje
         run: echo "Nivel de alerta seleccionado: ${{ github.event.inputs.alert_level }}"
+        
